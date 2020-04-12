@@ -12,23 +12,24 @@ function App() {
           
           <fieldset>
           <input placeholder="Population" type="number" data="data-population" tabIndex={1} required autofocus />
-          <label> data-population </label>
+        
+          <label for="population">data-population</label>
           </fieldset>
           <fieldset>
             <input placeholder="timeToElapse" type="number" data="data-time-to-elapse " tabIndex={2} required />
-            <label> data-time </label>
+            <label for="timeToElapse">Time Elapse</label>
           </fieldset>
           <fieldset>
             <input placeholder="reportedCase" type="number" data="data-reported-cases" tabIndex={3} required />
-            <label> reportedCase </label>
+            <label for="reportedCase">Reported Cases</label>
           </fieldset>
           <fieldset>
             <input placeholder="totalHospitalBeds" type="number" data=" data-total-hospital-beds" tabIndex={4} required />
-            <label> HospitalBeds </label>
+            <label for="beds">Hospital Beds</label>
           </fieldset>
           <fieldset>
             <input placeholder="periodType" type="number" data="data-period-type"/>
-            <label> period </label>
+            <label for="time">Type of period</label>
           </fieldset>
           <fieldset>
             <button name="submit" type="submit" id="contact-submit" data="data-goestimate" data-submit="...Sending">Estimate.
