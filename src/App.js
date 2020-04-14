@@ -7,11 +7,11 @@ function App() {
     <div className="App">
  
       <div className="container">  
-        <form id="contact" action method="post">
-          <h3>Covid-19 Estimator</h3>
+        <form id="estimator" action method="post">
+          <h3>COVID-19 ESTIMATOR</h3>
           
           <fieldset>
-          <input placeholder="Population" type="number" id="data-population"  required autofocus tabindex="0" alt="data-population"/>
+          <input placeholder="Population" type="number"  required autofocus tabindex="0" alt="data-population"/>
         
           <label for="data-population">Population</label>
           </fieldset>
@@ -28,9 +28,12 @@ function App() {
             <label for="data-total-hospital-beds">Hospital Beds</label>
           </fieldset>
           <fieldset>
-            <input placeholder="Period Type" type="number" id="data-period-type" alt="data-period-typ" />
-            <label for="data-period-type">Type of period</label>
-          </fieldset>
+          <select placeholder="Period Type" type="number" id="data-period-type" alt="data-period-type">
+          <option value="days">Day</option>
+        <option value="week">Week</option>
+        <option value="month">Month</option> </select>
+  <label For="data-period-type">Period</label>
+         </fieldset>
           <fieldset>
             <button name="submit" type="submit" id="contact-submit" alt="data-goestimate" data-submit="...Sending">ESTIMATE
 </button>
