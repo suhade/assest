@@ -11,7 +11,7 @@ function App() {
           <h3>COVID-19 ESTIMATOR</h3>
           
           <fieldset>
-          <input placeholder="Population" type="number"  required autofocus  alt="data-population"/>
+          <input placeholder="Population" type="number"  required autofocus  id="data-population" alt="data-population"/>
         
           <label for="data-population">Population</label>
           </fieldset>
