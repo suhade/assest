@@ -11,28 +11,28 @@ function App() {
           <h3>Covid-19 Estimator</h3>
           
           <fieldset>
-          <input placeholder="Population" type="number" id="data-population"  required autofocus tabindex="0"/>
+          <input placeholder="Population" type="number" id="data-population"  required autofocus tabindex="0" alt="data-population"/>
         
           <label for="data-population">Population</label>
           </fieldset>
           <fieldset>
-            <input placeholder="timeToElapse" type="number" id ="data-time-to-elapse" required tabindex="0"/>
+            <input placeholder="timeToElapse" type="number" id ="data-time-to-elapse" required tabindex="0" alt="data-time-to-elapse"/>
             <label for="data-time-to-elapse">Time Elapse</label>
           </fieldset>
           <fieldset>
-            <input placeholder="reportedCase" type="number" id ="data-reported-cases"  required tabindex="0"/>
+            <input placeholder="reportedCase" type="number" id ="data-reported-cases"  required tabindex="0" alt="data-reported-cases"/>
             <label for="data-reported-cases">Reported Cases</label>
           </fieldset>
           <fieldset>
-            <input placeholder="totalHospitalBeds" type="number" id ="data-total-hospital-beds" required tabindex="0" />
+            <input placeholder="totalHospitalBeds" type="number" id ="data-total-hospital-beds" required tabindex="0" alt="data-total-hospital-beds"/>
             <label for="data-total-hospital-beds">Hospital Beds</label>
           </fieldset>
           <fieldset>
-            <input placeholder="periodType" type="number" id="data-period-type" />
+            <input placeholder="periodType" type="number" id="data-period-type" alt="data-period-type" />
             <label for="data-period-type">Type of period</label>
           </fieldset>
           <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data="data-goestimate" data-submit="...Sending">ESTIMATE
+            <button name="submit" type="submit" id="contact-submit" alt="data-goestimate" data-submit="...Sending">ESTIMATE
 </button>
           </fieldset>
          
