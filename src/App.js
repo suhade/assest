@@ -16,19 +16,19 @@ function App() {
           <label for="data-population">Population</label>
           </fieldset>
           <fieldset>
-            <input placeholder="timeToElapse" type="number" id ="data-time-to-elapse" required tabindex="0" alt="data-time-to-elapse"/>
+            <input placeholder="Time Elapse" type="number" id ="data-time-to-elapse" required tabindex="0" alt="data-time-to-elapse"/>
             <label for="data-time-to-elapse">Time Elapse</label>
           </fieldset>
           <fieldset>
-            <input placeholder="reportedCase" type="number" id ="data-reported-cases"  required tabindex="0" alt="data-reported-cases"/>
+            <input placeholder="Reported Case" type="number" id ="data-reported-cases"  required tabindex="0" alt="data-reported-cases"/>
             <label for="data-reported-cases">Reported Cases</label>
           </fieldset>
           <fieldset>
-            <input placeholder="totalHospitalBeds" type="number" id ="data-total-hospital-beds" required tabindex="0" alt="data-total-hospital-beds"/>
+            <input placeholder="Hospital Bed" type="number" id ="data-total-hospital-beds" required tabindex="0" alt="data-total-hospital-beds"/>
             <label for="data-total-hospital-beds">Hospital Beds</label>
           </fieldset>
           <fieldset>
-            <input placeholder="periodType" type="number" id="data-period-type" alt="data-period-type" />
+            <input placeholder="Period Type" type="number" id="data-period-type" alt="data-period-typ" />
             <label for="data-period-type">Type of period</label>
           </fieldset>
           <fieldset>
