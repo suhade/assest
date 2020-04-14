@@ -32,7 +32,7 @@ function App() {
             <label for="data-period-type">Type of period</label>
           </fieldset>
           <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data="data-goestimate" data-submit="...Sending">Estimate
+            <button name="submit" type="submit" id="contact-submit" data="data-goestimate" data-submit="...Sending">ESTIMATE
 </button>
           </fieldset>
          
